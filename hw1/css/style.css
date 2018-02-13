@@ -4,6 +4,7 @@ html {
 }
 body {
     color: #191919;
+    font-size: 18px;
 }
 a {
     text-decoration: none;
@@ -73,6 +74,15 @@ a {
     margin: 0;
     border: 0;
     margin: 0;
+}
+.text-size-lrg {
+    font-size: 10px;
+}
+.text-size-mid {
+    font-size: 10px;
+}
+.text-size-sml {
+    font-size: 8px;
 }
 
 /* END of Utility */
