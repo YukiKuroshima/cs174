@@ -5,6 +5,7 @@ html {
 body {
     color: #191919;
     font-size: 18px;
+    font-weight: 300;
 }
 a {
     text-decoration: none;
@@ -65,7 +66,7 @@ a {
     color: #AF9648
 }
 .letter-space {
-    letter-spacing: 0.15em;
+    letter-spacing: 0.3em;
 }
 .underline {
     text-decoration: underline;
@@ -75,14 +76,8 @@ a {
     border: 0;
     margin: 0;
 }
-.text-size-lrg {
-    font-size: 10px;
-}
-.text-size-mid {
-    font-size: 10px;
-}
-.text-size-sml {
-    font-size: 8px;
+.text-small {
+    font-size: 16px;
 }
 
 /* END of Utility */
@@ -96,7 +91,6 @@ a {
 
 #header h1 {
     margin-bottom: 20px;
-    font-size: 12px;
 }
 #header hr {
     margin: auto;
@@ -105,7 +99,7 @@ a {
 }
 #header h2 {
     margin-bottom: 0px;
-    font-size: 100px;
+    font-size: 140px;
 }
 #header h2 span {
     margin-bottom: 20px;
@@ -164,9 +158,10 @@ a {
 #sign-up .form .email {
     width: 350px;
     height: 47px;
+    padding-left: 15px;
 }
 .email::-moz-placeholder {
-    font-size: 25px;
+    font-size: 18px;
     color: gray;
     font-weight: 300;
 }
