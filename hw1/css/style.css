@@ -103,8 +103,11 @@ a {
 }
 #header h2 span {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 70px;
     vertical-align: super;
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    margin-right: -30px;
 }
 
 /* End Header */
