@@ -13,13 +13,15 @@ function loadJSON (url) {
     if (this.readyState == 4 && this.status == 200) {
       var data = JSON.parse(this.responseText);
       makeTableFromJSON(data);
+    } else if (this.readyState == 4 && this.status != 200) {
+      alert("Could not open JSON file");
     }
   };
   xmlhttp.open("GET", url, true);
   try{
     xmlhttp.send();
   }catch(e){
-    alert(e.message);
+    alert("Could not open JSON file");
   }
 }
 
