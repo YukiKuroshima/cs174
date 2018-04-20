@@ -3,9 +3,13 @@
     <body>
         <h1>Twitter Archive</h1>
 
-        <button onclick="show('list')">Show list</button>
+        <button onclick="show('tweets')">Show tweets</button>
+        <button onclick="show('users')">Show users</button>
+        <button onclick="show('links')">Show links</button>
+        <button onclick="show('tweets')">Tweet by id</button> <input id="tweetId"placeholder="Tweet id">
+        <button onclick="show('users')">User by screen name</button> <input id="screenName"placeholder="Screen name">
 
-        <div class="content"></div>
+        <div id="content"></div>
 
         <script type="text/javascript" src="show.js"></script>
     </body>
